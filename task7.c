@@ -49,12 +49,10 @@ int main() {
         }
     }
 
-    // 구조 오류 체크 (depth가 0이 아니면 태그 짝이 안 맞는 것)
+    // 구조 오류 체크
     if (depth != 0) {
         printf("ERROR\n");
     }
 
     return 0;
 }
-
-//<div><p>HELLO,<b>world</b>!</p></div>

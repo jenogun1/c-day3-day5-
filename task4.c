@@ -31,7 +31,7 @@ int main() {
     }
 
     // 결과 출력
-    printf("maximum: %d\nminimum : %d\noverall value : %d\nAverage: %f", max, min, num, (float)num / n);
+    printf("maximum: %d\nminimum : %d\ntotal sum : %d\nAverage: %f", max, min, num, (float)num / n);
 
     return 0;
 }
